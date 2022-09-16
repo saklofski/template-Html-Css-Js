@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>template Html Css Javascript</title>
+</head>
+<body>
+    
+    <!-- Start Settings box -->
+
+    <div class="settings-box">
+        <div class="toggle-settings">
+            <i class="fa fa-gear"></i> <!-- fa-spin -->
+        </div>
+        <div class="settings-container">
+            <div class="option-box">
+                <h4>Colors</h4>
+                <ul class="colors-list">
+                    <li class="active" data-color="#FF9800"></li>
+                    <li data-color="#E91E63"></li>
+                    <li data-color="#009688"></li>
+                    <li data-color="#03A9F4"></li>
+                    <li data-color="#4CAF50"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h4>Random backgrounds</h4>
+                <div class="random-backgrounds">
+                    <span class="yes active" data-background="yes">Yes</span>
+                    <span class="no" data-background="no">No</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>Show Bullets</h4>
+                <div class="bullets-option">
+                    <span class="yes active" data-display="show">Yes</span>
+                    <span class="no" data-display="hide">No</span>
+                </div>
+            </div>
+            <button class="reset-option">Reset Options</button>
+        </div>
+    </div>
+
+    <!-- End Settings box -->
+
+    <!-- Start navigation bar -->
+
+    <div class="nav-bullets">
+        <div class="bullet" data-section=".about-us">
+            <div class="tooltip">About Us</div>
+        </div>
+        <div class="bullet" data-section=".skills">
+            <div class="tooltip">Our Skills</div>
+        </div>
+        <div class="bullet" data-section=".gallery">
+            <div class="tooltip">Our Gallery</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+            <div class="tooltip">Timeline</div>
+        </div>
+        <div class="bullet" data-section=".features">
+            <div class="tooltip">Our Features</div>
+        </div>
+        <div class="bullet" data-section=".testimonials">
+            <div class="tooltip">Testimonials</div>
+        </div>
+        <div class="bullet" data-section=".contact">
+            <div class="tooltip">Contact</div>
+        </div>
+    </div>
+
+    <!-- End navigation bar -->
+
+    <!-- Start landing page -->
+
+    <div class="landing-page">
+        <div class="overlay"></div>
+
+        <div class="container">
+            <div class="header-area">
+                <div class="logo">Special Design</div>
+                <div class="links-container">
+                    <ul class="links">
+                        <li><a href="#" class="active" data-section=".about-us">About</a></li>
+                        <li><a href="#" data-section=".skills">Skills</a></li>
+                        <li><a href="#" data-section=".gallery">Gallery</a></li>
+                        <li><a href="#" data-section=".timeline">Timeline</a></li>
+                        <li><a href="#" data-section=".features">Features</a></li>
+                        <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+                        <li><a href="#" data-section=".contact">Contact</a></li>
+                    </ul>
+                    <button class="toggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="introduction-text">
+            <h1>We Are <span>Creative</span> Agency</h1>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                dummy text ever since the 1500s.
+            </p>
+        </div>
+    </div>
+        
+    <!-- End landing page -->
+
+    <!-- Start About us -->
+
+    <div class="container">
+        <div class="about-us">
+
+            <div class="info-box">
+                <h2>About Us</h2>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                    dummy text ever since the 1500s.
+                </p>
+            </div>
+
+            <div class="image-box">
+                <img src="images/illustration.png" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- End About Us -->
+
+    <!-- Start Our Skills -->
+
+    <div class="skills">
+
+        <div class="container">
+
+            <h2>Our Skills</h2>
+
+            <div class="skill-box">
+                <div class="skill-name">HTML</div>
+                <div class="skill-progress">
+                    <span data-progress="80%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">CSS</div>
+                <div class="skill-progress">
+                    <span data-progress="70%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">JS</div>
+                <div class="skill-progress">
+                    <span data-progress="60%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">PHP</div>
+                <div class="skill-progress">
+                    <span data-progress="50%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">PYTHON</div>
+                <div class="skill-progress">
+                    <span data-progress="90%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">REACTJS</div>
+                <div class="skill-progress">
+                    <span data-progress="30%"></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- End Our Skills -->
+
+    <!-- Start Our Gallery -->
+
+    <div class="gallery">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="image-box">
+                <img src="images/avenue-g412e20423_1920.jpg" alt="image 1">
+                <img src="images/dandelion-ga7d0f483e_1920.jpg" alt="image 2">
+                <img src="images/fantasy-g2a681b5d8_1920.jpg" alt="image 3">
+                <img src="images/flowers-g96b4b5ca8_1920.jpg" alt="image 4">
+                <img src="images/flowers-gf96b3d031_1920.jpg" alt="image 5">
+                <img src="images/pink-gbaa37d0d4_1920.jpg" alt="image 6">
+                <img src="images/road-g643e01908_1920.jpg" alt="image 7">
+                <img src="images/road-gcebbc4a9f_1920.jpg" alt="image 8">
+                <img src="images/sunset-g90559449d_1920.jpg" alt="image 9">
+                <img src="images/tree-g185d168bd_1280.jpg" alt="image 9">
+            </div>
+        </div>
+    </div>
+
+    <!-- End Our Gallery -->
+
+    <!-- Start Timeline -->
+
+    <div class="timeline">
+        <div class="container">
+            <div class="timeline-content">
+
+                <div class="year">2018</div>
+
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                            dummy text ever since the 1500s. 
+                        </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                            dummy text ever since the 1500s. 
+                        </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+
+                <div class="year">2016</div>
+
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                            dummy text ever since the 1500s. 
+                        </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                            dummy text ever since the 1500s. 
+                        </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- End Timeline -->
+
+    <!-- Start Features -->
+
+    <div class="features">
+        <h2>Our Features</h2>
+        <div class="container">
+
+            <div class="feat-box">
+                <img src="images/icon1.png" alt="">
+                <h4>Development</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+
+            <div class="feat-box">
+                <img src="images/icon6.png" alt="">
+                <h4>Development</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+
+            <div class="feat-box">
+                <img src="images/icon1.png" alt="">
+                <h4>Development</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+
+            <div class="feat-box">
+                <img src="images/icon4.jpg" alt="">
+                <h4>Development</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+
+            <div class="feat-box">
+                <img src="images/icon5.jpg" alt="">
+                <h4>Development</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+
+            <div class="feat-box">
+                <img src="images/icon6.png" alt="">
+                <h4>Development</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+    <!-- End Features -->
+
+    <!-- Start Testimonials -->
+
+    <div class="testimonials">
+        <div class="container">
+
+            <h2>Our Testimonials</h2>
+
+            <div class="testimonials-box">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div class="person-info">
+                    <img src="images/test1.jpg" alt="">
+                    <h4>Hatem Sakly</h4>
+                    <p>CEO At Company</p>
+                </div>
+            </div>
+
+            <div class="testimonials-box">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div class="person-info">
+                    <img src="images/test2.jpg" alt="">
+                    <h4>Zied Sakly</h4>
+                    <p>CEO At Company</p>
+                </div>
+            </div>
+
+            <div class="testimonials-box">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div class="person-info">
+                    <img src="images/test3.jpg" alt="">
+                    <h4>Najib Sakly</h4>
+                    <p>CEO At Company</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    <!-- End Testimonials -->
+
+    <!-- Start Contact Us -->
+
+    <div class="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="">
+                <div class="left">
+                    <input type="text" placeholder="Your Name" name="username">
+                    <input type="text" placeholder="Your Phone" name="phone">
+                    <input type="email" placeholder="Your Email" name="email">
+                    <input type="text" placeholder="Subject" name="subject">
+                </div>
+                <div class="right">
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- End Contact Us -->
+
+    <!-- Start footer -->
+
+    <div class="footer">Created with Love By Hatem Sakly</div>
+
+    <!-- End footer -->
+
+    <script src="js/script.js"></script>
+</body>
+</html>
